@@ -200,7 +200,7 @@
                         return yScale(datum[0]);
                     })
                     .text(function() {
-                        // Add commas for readability and include the category name
+                        // Add commas for readability and include the category names
                         return '\nTotal Profit: $' + d3.format(',.2f')([datum[1] - datum[0]]);
                     })
                     .style('fill', 'black');
